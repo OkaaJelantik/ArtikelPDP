@@ -1,0 +1,16 @@
+{
+  "name": "artikelpdp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Scraper kategori/artikel budayabali.com (badge-category, post-title, post-summary, item-meta-author)",
+  "bin": { "artikelpdp": "src/cli.mjs" },
+  "scripts": {
+    "draft": "node src/cli.mjs draft",
+    "crawl": "node src/cli.mjs crawl",
+    "report": "node src/cli.mjs report"
+  },
+  "dependencies": {
+    "cheerio": "^1.2.0"
+  }
+}

@@ -1,0 +1,10 @@
+node_modules/
+logs/
+*.log
+sandbox/
+data/raw/
+data/uji*.db
+*.db-wal
+*.db-shm
+*.db-journal
+.DS_Store
