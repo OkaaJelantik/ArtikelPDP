@@ -9,3 +9,4 @@ data/uji*.db
 *.db-shm
 *.db-journal
 .DS_Store
+.agents/
