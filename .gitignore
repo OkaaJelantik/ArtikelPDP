@@ -2,6 +2,7 @@ node_modules/
 logs/
 *.log
 sandbox/
+out/
 data/raw/
 data/uji*.db
 *.db-wal
